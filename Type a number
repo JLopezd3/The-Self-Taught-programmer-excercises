@@ -1,0 +1,8 @@
+num = input("Type an integer")
+ 
+try:
+  int(num)
+  print(num)
+ 
+except:
+  print("Please type an integer")
